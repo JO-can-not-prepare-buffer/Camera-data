@@ -9,7 +9,7 @@ n
 
 # my_list <- subset(my_list, !is.na(Species))
 
-for(i in 277107:n){
+for(i in 1:n){
   setTxtProgressBar(pb, i/n)
   
   if(my_list$Species[i]=="Empty"){
