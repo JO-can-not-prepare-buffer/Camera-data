@@ -1,3 +1,5 @@
+# 对红外相机照片进行分类保存
+
 my_list <- read.csv(file = "Menyuan_202304-10.csv")
 
 pb <- txtProgressBar(style=3)
